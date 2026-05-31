@@ -10,13 +10,13 @@
   <link name="base">
     <visual>
       <geometry>
-        <mesh filename="package://myarm_300_pi/meshes/base.dae"/>
+        <mesh filename="../meshes/base.dae"/>
       </geometry>
       <origin rpy=" 0 0 0" xyz="0.0 0 0 "/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://myarm_300_pi/meshes/base.dae"/>
+        <mesh filename="../meshes/base.dae"/>
       </geometry>
       <origin rpy=" 0 0 0" xyz="0.0 0 0 "/>
     </collision>
@@ -25,13 +25,13 @@
   <link name="link1">
     <visual>
       <geometry>
-        <mesh filename="package://myarm_300_pi/meshes/j1.dae"/>
+        <mesh filename="../meshes/j1.dae"/>
       </geometry>
       <origin rpy=" 0 0 0" xyz="0.0 0 -0.086 "/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://myarm_300_pi/meshes/j1.dae"/>
+        <mesh filename="../meshes/j1.dae"/>
       </geometry>
       <origin rpy=" 0 0 0" xyz="0.0 0 -0.086 "/>
     </collision>
@@ -40,13 +40,13 @@
   <link name="link2">
     <visual>
       <geometry>
-        <mesh filename="package://myarm_300_pi/meshes/j2.dae"/>
+        <mesh filename="../meshes/j2.dae"/>
       </geometry>
       <origin rpy=" 3.14159 0 -1.5708 " xyz="0.0 0 0.0 "/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://myarm_300_pi/meshes/j2.dae"/>
+        <mesh filename="../meshes/j2.dae"/>
       </geometry>
       <origin rpy=" 3.14159 0 -1.5708" xyz="0.0 0 0.0 "/>
     </collision>
@@ -55,13 +55,13 @@
   <link name="link3">
     <visual>
       <geometry>
-        <mesh filename="package://myarm_300_pi/meshes/j3.dae"/>
+        <mesh filename="../meshes/j3.dae"/>
       </geometry>
       <origin rpy=" 0 0 0" xyz="0.0 0 -0.056 "/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://myarm_300_pi/meshes/j3.dae"/>
+        <mesh filename="../meshes/j3.dae"/>
       </geometry>
       <origin rpy=" 0 0 0" xyz="0.0 0 -0.056"/>
     </collision>
@@ -70,13 +70,13 @@
   <link name="link4">
     <visual>
       <geometry>
-        <mesh filename="package://myarm_300_pi/meshes/j4.dae"/>
+        <mesh filename="../meshes/j4.dae"/>
       </geometry>
       <origin rpy="0 0 1.5708" xyz="0.0 0.000 0 "/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://myarm_300_pi/meshes/j4.dae"/>
+        <mesh filename="../meshes/j4.dae"/>
       </geometry>
       <origin rpy="0 0 1.5708" xyz="0.0 0.000 0 "/>
     </collision>
@@ -85,13 +85,13 @@
   <link name="link5">
     <visual>
       <geometry>
-        <mesh filename="package://myarm_300_pi/meshes/j5.dae"/>
+        <mesh filename="../meshes/j5.dae"/>
       </geometry>
       <origin rpy=" 0 0 0" xyz="0 0.00 -0.0525 "/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://myarm_300_pi/meshes/j5.dae"/>
+        <mesh filename="../meshes/j5.dae"/>
       </geometry>
       <origin rpy=" 0 0 0" xyz="0 0.00 -0.0525 "/>
     </collision>
@@ -100,13 +100,13 @@
   <link name="link6">
     <visual>
       <geometry>
-        <mesh filename="package://myarm_300_pi/meshes/j6.dae"/>
+        <mesh filename="../meshes/j6.dae"/>
       </geometry>
       <origin rpy=" 0 0 1.5708" xyz="0.0 0.000 -0.0 "/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://myarm_300_pi/meshes/j6.dae"/>
+        <mesh filename="../meshes/j6.dae"/>
       </geometry>
       <origin rpy=" 0 0 1.5708" xyz="0.0 0.000 -0.0 "/>
     </collision>
@@ -115,13 +115,13 @@
   <link name="link7">
     <visual>
       <geometry>
-        <mesh filename="package://myarm_300_pi/meshes/j7.dae"/>
+        <mesh filename="../meshes/j7.dae"/>
       </geometry>
       <origin rpy=" 0 0 0" xyz="0.0002 -0.0002 -0.0185 "/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://myarm_300_pi/meshes/j7.dae"/>
+        <mesh filename="../meshes/j7.dae"/>
       </geometry>
       <origin rpy=" 0 0 0" xyz="0.0002 -0.0002 -0.0185 "/>
     </collision>
@@ -193,6 +193,6 @@
   <joint name="link7_to_endeffector" type="fixed">  <!-- Fixed transform from link7 to end-effector dummy link -->
     <parent link="link7"/>
     <child link="endeffector"/>
-    <origin rpy="0 0 0" xyz="0 0.0 0"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
   </joint>
 </robot>
