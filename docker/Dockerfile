@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
     wget \
     curl \
     vim \
+    usbutils \
     && rm -rf /var/lib/apt/lists/*
 
 # Pinocchio πρώτα
@@ -23,6 +24,7 @@ RUN apt-get update && apt-get install -y \
 RUN apt-get update && apt-get install -y \
     ros-humble-cv-bridge \
     ros-humble-vision-opencv \
+    ros-humble-realsense2-camera \
     ros-humble-urdf \
     ros-humble-robot-state-publisher \
     && rm -rf /var/lib/apt/lists/*
