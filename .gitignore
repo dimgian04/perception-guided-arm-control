@@ -1,6 +1,6 @@
 IR/
 .DS_Store
-project3_workspace/build/
-project3_workspace/install/
-project3_worskspace/log/
+**/build/
+**/install/
+**/log/
 __pycache__/
